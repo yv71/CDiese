@@ -1,0 +1,7 @@
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\bin\Debug\TD03.exe.config
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\bin\Debug\TD03.exe
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\bin\Debug\TD03.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\obj\Debug\TD03.csprojAssemblyReference.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\obj\Debug\TD03.csproj.CoreCompileInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\obj\Debug\TD03.exe
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\IQ\IQ-2\lk365606\S3\M3105 - Conception et programmation objet\TD\TD03-Base\TD03\obj\Debug\TD03.pdb
