@@ -20,6 +20,7 @@ namespace TD03
             commande.Ajouter(new Echo());
             commande.Ajouter(new Heure());
             commande.Ajouter(new Date());
+            commande.Ajouter(new dec2bin());
         }
 
         /// <summary>
