@@ -10,14 +10,15 @@ namespace TD03
     {
         public override string Aide()
         {
-            return "date retourne la date du jour";
+            return "date retourne la date du jour (ajouter court après renvoi la date courte et ajouter long renvoi la date longue)";
         }
 
         protected override bool PeutTraiter(string cmd)
         {
-            Boolean peut = false;
+            Boolean peut = false;            
             String mot = LitMotClé(cmd);
-            if (mot.Equals("date"))
+            String[] liste = mot.Split(' ');
+            if (liste[0].Equals("date"))
             {
                 peut = true;
             }
@@ -27,20 +28,41 @@ namespace TD03
         protected override bool Traiter(string cmd)
         {
             Boolean peut = true;
-            DateTime d = DateTime.Now;
-            String y = d.Year.ToString();
-            String m = d.Month.ToString();
-            String day = d.Day.ToString();
-            if (d.Month < 10)
+            String mot = cmd;
+            String[] liste = mot.Split(' ');
+            if (liste.Length == 2)
             {
-                m = "0" + d.Month.ToString();
+                switch (liste[1])
+                {
+                    
+                    case "long":
+                        Console.WriteLine("Date du jour : "+ loong());
+                        break;
+                    default:
+                        Console.WriteLine("Date du jour : " + court());
+                        break;
+                }
             }
-            if (d.Day < 10)
-            {
-                day = "0" + d.Day.ToString();
+            else
+            {                
+                Console.WriteLine("Date du jour : " + court());
             }
-            Console.WriteLine(day + "/" + m + "/" + y);
+            
             return peut;
+        }
+
+        public String court()
+        {
+            DateTime d = DateTime.Now;
+            String retour = d.ToShortDateString();
+            return retour;
+        }
+
+        public String loong()
+        {
+            DateTime d = DateTime.Now;
+            String retour = d.ToLongDateString();
+            return retour;
         }
     }
 }
