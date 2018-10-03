@@ -1,0 +1,7 @@
+C:\Users\yv066840\Desktop\TD03-Base\TD03\bin\Debug\TD03.exe.config
+C:\Users\yv066840\Desktop\TD03-Base\TD03\bin\Debug\TD03.exe
+C:\Users\yv066840\Desktop\TD03-Base\TD03\bin\Debug\TD03.pdb
+C:\Users\yv066840\Desktop\TD03-Base\TD03\obj\Debug\TD03.csprojAssemblyReference.cache
+C:\Users\yv066840\Desktop\TD03-Base\TD03\obj\Debug\TD03.csproj.CoreCompileInputs.cache
+C:\Users\yv066840\Desktop\TD03-Base\TD03\obj\Debug\TD03.exe
+C:\Users\yv066840\Desktop\TD03-Base\TD03\obj\Debug\TD03.pdb
